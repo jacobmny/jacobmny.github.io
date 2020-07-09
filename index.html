@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
+    <title>dogram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/dog_styles.css">
+</head>
+<body>
+<header class="main-header">
+    <h1 class="logo-title">Dogram</h1>
+</header>
+<main class="main-content">
+    <div class="detail-container">
+        <div class="detail-frame">
+            <img class="detail-image" src="images/dog5.jpg">
+            <span class="detail-title">Don't expect from me much, I'm just Chavava</span>
+            <button id="hide-button" onclick="hideDetails()">Hide details</button>
+        </div>
+    </div>
+
+
+    <ul class="thumbnails-list">
+        <li  class="thumbnails-item">
+            <a href="images/dog1.jpg"
+               data-detailed-text="I'm not guilty, I'm not guilty">
+                <img class="thumbnails-image" src="images/dog1.jpg">
+                <span class="thumbnails-title">Brown</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/dog2.jpg"
+               data-detailed-text="It is a very interesting point">
+                <img class="thumbnails-image" src="images/dog2.jpg">
+                <span class="thumbnails-title">Scientist</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/dog3.jpg"
+               data-detailed-text="What ?! Again you want me to get out...">
+                <img class="thumbnails-image" src="images/dog3.jpg">
+                <span class="thumbnails-title">Bummer</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/dog4.jpg"
+               data-detailed-text="What do you have to say?">
+                <img class="thumbnails-image" src="images/dog4.jpg">
+                <span class="thumbnails-title">Speaker</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/dog5.jpg"
+               data-detailed-text="Don't expect from me much, I'm just Chavava">
+                <img class="thumbnails-image" src="images/dog5.jpg">
+                <span class="thumbnails-title">Mademoiselle</span>
+            </a>
+        </li>
+
+
+    </ul>
+</main>
+<script src="scripts/index.js"></script>
+</body>
+</html>
